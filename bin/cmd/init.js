@@ -3,6 +3,7 @@ const fs = require('fs-extra-promise')
 const dirs = [
   'src/js/entry',
   'src/postcss',
+  'src/postcss/entry',
   'src/html',
   'dist'
 ]
