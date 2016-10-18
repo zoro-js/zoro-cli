@@ -6,7 +6,7 @@ const dirs = [
 ]
 
 exports.command = 'init'
-exports.desc = 'init dirs'
+exports.desc = 'init dirs & files'
 exports.builder = {}
 exports.handler = function (argv) {
   const p1 = Promise.map(dirs, dir => {
