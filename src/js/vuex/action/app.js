@@ -30,11 +30,6 @@ export const getApps = ({commit, state}, obj) => {
     delete obj.reset
     obj.offset = 0
     obj.limit = state.app.limit
-  } else {
-    obj = _.pick(obj, [
-      'offset',
-      'limit'
-    ])
   }
   return xhr.post('/app/list', obj).then(({body}) => {
     commit(types.RECEIVE_APPS, _.pick(body, [
