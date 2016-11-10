@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import AppHeader from 'module/header'
-import AppFooter from 'module/footer'
+import AppHeader from 'module/Header'
+import AppFooter from 'module/Footer'
 
 export default {
   components: {
