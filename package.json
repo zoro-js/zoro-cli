@@ -7,11 +7,11 @@
     "zoro": "bin/zoro.js"
   },
   "dependencies": {
-    "fs-extra-promise": "^0.4.0",
-    "yargs": "^5.0.0"
+    "fs-extra-promise": "^1.0.1",
+    "yargs": "^8.0.1"
   },
   "devDependencies": {
-    "zoro-kit": "^0.0.54"
+    "zoro-kit": "^0.0.65"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
